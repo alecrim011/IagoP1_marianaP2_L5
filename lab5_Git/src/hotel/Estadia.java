@@ -22,8 +22,17 @@ public class Estadia {
 		
 	}
 
-	public Animal getAnimal() {
-		return animal;
+	public String getNome() {
+		return animal.getNome();
+	}
+	
+	public String getTipo() {
+		return animal.getTipo();
+		
+	}
+	
+	public int getIdade() {
+		return animal.getIdade();
 	}
 
 	public double getValor() {
